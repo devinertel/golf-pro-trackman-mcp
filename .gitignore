@@ -1,0 +1,26 @@
+# Account credentials and private exports — never commit
+.private/
+**/.private/
+.env
+.env.*
+!.env.example
+*token*.json
+*credential*.json
+*secret*.json
+exports/
+data/
+trackman-data/
+*.csv
+*.xlsx
+*.jsonl
+
+# Local environments and generated files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+.DS_Store
+.idea/
+.vscode/
